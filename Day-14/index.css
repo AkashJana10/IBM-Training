@@ -1,0 +1,108 @@
+.header-nav{
+    width: 100%;
+    background: #3b708b;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.ant-tag>a{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: aqua;
+}
+.ant-tag>a:hover{
+    color: yellow;
+    padding-left: 5px;
+}
+.search-container{
+    background: #fff;
+    align-items: center;
+}
+#search-bar{
+    width: 85%;
+    margin: auto;
+    padding: auto;
+    border-color: #fff;
+    box-sizing: border-box;
+}
+.search-container>.fa-solid{
+    margin: 0;
+    height: 10px;
+    background-color: #fff;
+    border: none;
+    color: #000000;
+    align-items: center;
+}
+#count-item{
+    font-size: large;
+    color: rgb(232, 7, 7);
+}
+.add-cart:hover{
+    transform: scale(1.50);
+    cursor: pointer;
+}
+
+/* Style for product container */
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Styling for each product box */
+.product-box {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.product-box:hover {
+    transform: scale(1.05);
+}
+
+/* Styling for product image */
+.product-image {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 5px 0;
+}
+
+/* Styling for button */
+.add-to-cart-btn {
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: darkgreen;
+}
+.delete-to-cart-btn {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-to-cart-btn:hover {
+    background-color:darkred;
+}
