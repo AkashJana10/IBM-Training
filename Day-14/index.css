@@ -38,7 +38,7 @@
     align-items: center;
 }
 #count-item{
-    font-size: large;
+    font-size: 25px;
     color: rgb(232, 7, 7);
 }
 .add-cart:hover{
@@ -46,15 +46,12 @@
     cursor: pointer;
 }
 
-/* Style for product container */
 #products {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
 }
-
-/* Styling for each product box */
 .product-box {
     border: 1px solid black;
     border-radius: 10px;
@@ -63,23 +60,14 @@
     padding: 10px;
     text-align: center;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
     background-color: #fff;
 }
-
-.product-box:hover {
-    transform: scale(1.05);
-}
-
-/* Styling for product image */
 .product-image {
     height: 100px;
     width: 100px;
     object-fit: cover;
     margin: 5px 0;
 }
-
-/* Styling for button */
 .add-to-cart-btn {
     background-color: green;
     color: white;
@@ -89,8 +77,8 @@
     cursor: pointer;
     font-size: 14px;
 }
-
 .add-to-cart-btn:hover {
+    transform: scale(1.10);
     background-color: darkgreen;
 }
 .delete-to-cart-btn {
@@ -102,7 +90,30 @@
     cursor: pointer;
     font-size: 14px;
 }
-
 .delete-to-cart-btn:hover {
     background-color:darkred;
+    transform: scale(1.20);
+}
+#cart-section {
+    width: 200px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+#cart-items {
+    max-height: 100px;
+    overflow-y: auto;
+}
+#total-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.outer-div{
+    display: flex;
+    justify-content: center;
 }
