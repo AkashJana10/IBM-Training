@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    padding: 15px 20px;
+    color: white;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+} 
+.nav-links li a:hover {
+    color: #ffc107;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 10px;
+    margin-top: 5px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+} 
+.dropdown-menu li a {
+    color: #343a40;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+    transition: 0.3s;
+} 
+.dropdown-menu li a:hover {
+    background-color: #ffc107;
+    color: white;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+}  
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #ffc107;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+#products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.product-box {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 10px 0;
+}
+.add-to-cart-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.add-to-cart-btn:hover {
+    background-color: #218838;
+    transform: scale(1.20);
+  }
