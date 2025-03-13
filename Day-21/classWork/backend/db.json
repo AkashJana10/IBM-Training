@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": "ca2c",
+      "title": "Akash Jana",
+      "views": 385
+    },
+    {
+      "title": "akash",
+      "views": 483,
+      "id": "df35"
+    },
+    {
+      "id": "fc80",
+      "title": "sabuj",
+      "views": 236
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "svu": [
+    {
+      "id": "1",
+      "text": "traning"
+    },
+    {
+      "id": "2",
+      "text": "nothing"
+    }
+  ]
+}
