@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    color: crimson;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 2px solid black;
+    padding: 20px;
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#input-name{
+    height: 30px;
+    width: 100%;
+}
+#input-email{
+    height: 30px;
+    width: 100%;
+}
+#input-password{
+    height: 30px;
+    width: 100%;
+}
+#submit-btn{
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    background-color: chartreuse;
+    color: rgb(255, 255, 255);
+    border: 1ps solid rgb(115, 57, 57);
+    border-radius: 10px;
+}
