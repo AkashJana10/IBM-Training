@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    color: crimson;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 2px solid black;
+    padding: 20px;
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#name{
+    height: 30px;
+    width: 100%;
+}
+#email{
+    height: 30px;
+    width: 100%;
+}
+#password{
+    height: 30px;
+    width: 100%;
+}
+#submit-btn{
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    background-color: chartreuse;
+    color: rgb(255, 255, 255);
+    border: 1ps solid rgb(115, 57, 57);
+    border-radius: 10px;
+}
+#login-btn{
+    height: 40px;
+    width: 80%;
+    font-size: large;
+    background-color: rgb(46, 39, 247);
+    color: rgb(255, 255, 255);
+    border: 1ps solid rgb(115, 57, 57);
+    border-radius: 10px;
+
+}
