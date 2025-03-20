@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 2px solid black;
+    padding: 30px;
+    height: 450px;
+    width: 350px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#name{
+    height: 30px;
+    width: 100%;
+}
+#category{
+    height: 30px;
+    width: 100%;
+}
+#desc{
+    height: 30px;
+    width: 100%;
+}
+#price{
+    height: 30px;
+    width: 100%;
+}
+#img{
+    height: 30px;
+    width: 100%;
+}
+#submit{
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    font-size: large;
+    background-color: chartreuse;
+    color: rgb(255, 255, 255);
+    border: 1ps solid rgb(115, 57, 57);
+    border-radius: 10px;
+}
+#submit:hover{
+    height: 50px;
+    width: 120px;
+}
